@@ -1,0 +1,31 @@
+Ejercicio de clase o estructuras
+
+Implementar las siguientes clases o estructuras y sus relaciones(diseño del modelo)
+
+Queremos formamr un ordenador, el ordenador tendra los siguientes propiedades:
+
+Queremos formar un ordernador,el ordenador tendra los siguiente propiedades:
+	1)precio
+	2)nombre del equipo
+	3)Varios modelos de memoria ram, la ram tendra las siguientes propiedades
+		a)capacidad de almacenamiento
+		b)fabricante
+		c)si tiene RGB
+	4)tendremos un procesador, el procesador tendra las siguientes propiedades
+		a)velocidad del procesador
+		b)numero de cores
+		c)numero de hilos
+		d)fabricante
+	5)podremos tener varias unidades de almacenamiento, tendran las siguientes propiedades
+		a)capacidad de almacenamiento
+		b)fabricante
+		c)tipo de unidad(HD,SSd,Nvme)
+	6) Tendrá una tarjeta grafica, con las siguientes propiedades
+            a) ram
+            b) consumo
+            c) Cuda cores
+            d) velocidad
+
+Tareas:
+1) implementar el sistema de clases o de estructuras (o mezcla)
+2) Instanciar un ordenador completo con todos sus objetos.	

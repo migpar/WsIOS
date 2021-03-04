@@ -1,0 +1,37 @@
+class Ram{
+    var gb = 0
+    var fabricante = ""  
+    var RGB = false
+}
+
+class Processor{
+    var speed = 0.0
+    var cores = 0
+    var hilos = 0
+    var fabricante = ""
+}
+
+class Memory{
+    var capacity = 0
+    var fabricante = ""
+    var tipo = ""
+}
+
+class Graphic{
+    var ram = 0
+    var consumption = 0.0
+    var cores = 0
+    var speed = 0.0
+}
+
+class PC{
+    var precio = 0.0
+    var name = ""
+    var ram = Ram()
+    var processor = Processor()
+    var memory = Memory()
+    var graphic = Graphic()
+}
+
+var miPC = PC()
+print(miPC.ram.gb)
